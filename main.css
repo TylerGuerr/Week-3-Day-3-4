@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+.project {
+    background-color: rgb(22, 21, 21);
+}
+.cover-page {
+    opacity: 90%;
+}
+.header {
+    border-bottom: 3px solid white;
+    padding-bottom: -5px;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    padding-left: 20px;
+}
+#top-left {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#top-right {
+    font-size: 20px;
+    padding-left: 1050px;
+    word-spacing: 20px;
+}
+.freshest {
+    color:white;
+    text-align: center;
+    padding-top: 500px;
+}
+.freshest h1 {
+    font-size: 100px;
+    border-bottom: 2px solid lightgray;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    letter-spacing: 1px;
+}
+.freshest p {
+    font-size: 50px;
+    letter-spacing: 2px;
+    opacity: 90%;
+    padding-bottom: 300px;
+    margin: auto auto;
+}
+.first-section {
+    display:flex;
+    color:white;
+    flex-wrap:nowrap;
+
+}
+.first-section img {
+    justify-content: flex-start;
+    height: 400px;  
+}
+.first-section h1 {
+    font-size: 40px;
+}
+.first-section p {
+    font-size: 20px;
+}
+#lorem1 {
+    flex-flow: column nowrap;
+    padding-left: 75px;
+    padding-top: 60px;
+    width: 450px;
+    opacity: 80%;
+}
+.second-section {
+    background-color:rgb(20, 19, 19);
+    display:flex;
+    color:white;
+    flex-wrap:nowrap;
+    flex-direction: row-reverse;
+
+}
+.second-section img {
+    justify-content: flex-start;
+    height: 400px;  
+}
+.second-section h1 {
+    font-size: 40px;
+}
+.second-section p {
+    font-size: 20px;
+}
+#lorem2 {
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    padding-right: 200px;
+    padding-left: 75px;
+    padding-top: 60px;
+    width: 450px;
+    opacity: 80%;
+}
+
+.third-section {
+    display:flex;
+    color:white;
+    flex-wrap:nowrap;
+}
+.third-section img {
+    justify-content: flex-start;
+    height: 400px;  
+}
+.third-section h1 {
+    font-size: 40px;
+}
+.third-section p {
+    font-size: 20px;
+}
+#lorem3 {
+    flex-flow: column nowrap;
+    padding-left: 75px;
+    padding-top: 60px;
+    width: 450px;
+    opacity: 80%;
+}
